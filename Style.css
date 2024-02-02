@@ -115,11 +115,11 @@ div.divtravelname {
 section.pricetour {
     background: #00D09E;
     width: 100vw;
-    height: 340px;
+    height: 360px;
     display: flex;
     flex-direction: row-reverse;
     margin-top: 80px;
-    margin-bottom:50px;
+    margin-bottom:30px;
 }
 h3 {
     color: #fff;
@@ -167,5 +167,42 @@ h2.title2::after {
     top: 50%;
     right: -50px;
     z-index: -1;
+}
+section.nowruz {
+    display: flex;
+    padding: 30px;
+    height: 500px;
+    background: #F8F8F8;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    width: 100vw;
+    box-shadow: 6px 7px 18px 7px rgba(0, 0, 0, 0.09);
+}
+.cart {
+    height: 320px;
+    width: 200px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 21px;
+}
+.inlineCart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.location {
+    display: flex;
+    flex-direction: row-reverse;
+}
+.date {
+    display: flex;
+    flex-direction: row-reverse;
+}
+.price {
+    display: flex;
+    flex-direction: row-reverse;
+    align-content: flex-end;
+    align-items: flex-end;
 }
 
